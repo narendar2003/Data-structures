@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int i,j;
+	int arr[5];
+	printf("Enter the 5 elements:");
+    for (i=0;i<5;i++){
+    	scanf("%d",&arr[i]);
+    }
+	for(j=0;j<5;j++){
+		printf("%d\t",arr[j]);
+	}
+	return 0;	
+}
